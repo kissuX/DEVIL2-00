@@ -17,7 +17,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
 WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
-PICS = (environ.get('PICS' ,'https://graph.org/file/bbf482b9f2da773e7a825.jpg https://graph.org/file/8cf4fa4119899c4cf6359.jpg https://graph.org/file/ea1dd0ddfe2a2dda8326b.jpg https://graph.org/file/0c85d859f9dcf2a1eab64.jpg https://graph.org/file/318574faa895fbf9886cd.jpg https://graph.org/file/9c005fbfa7fa3e9563c0d.jpg https://graph.org/file/2876c3468997eca18079b.jpg https://graph.org/file/46eb130c68eb77da71cde.jpg https://graph.org/file/da516f034f0a991e5c2ed.jpg')).split()
+PICS = (environ.get('PICS' ,'https://telegra.ph/file/29d7cc11dbcb529e1fb1f.jpg https://telegra.ph/file/5882b2e452d83502b7259.jpg https://telegra.ph/file/acf37669e24d19a7cd9d7.jpg https://telegra.ph/file/9208c756a315ad849dd35.jpg https://telegra.ph/file/9e83f650c7305a57f5daf.jpg https://telegra.ph/file/61f1f598c8b009f95f6fb.jpg https://telegra.ph/file/8c0c5e246c1ceb9948499.jpg https://telegra.ph/file/a33644dbaba84d2a52f69.jpg https://telegra.ph/file/b8a5d8eaa21b1e333bfe5.jpg')).split()
 UPTIME = time.time()
 
 # Admins, Channels & Users
@@ -26,7 +26,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('AUTH_CHANNEL' '-1002006526272')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
