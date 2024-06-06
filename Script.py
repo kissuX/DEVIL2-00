@@ -3,7 +3,7 @@ class script(object):
 
 Mʏ Nᴀᴍᴇ Is {bot}.
 
-I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ Manage by🤞<a href=https://t.me/kissu123456>𝐊𝐢𝐬𝐬𝐮 💞</a> </b>"""
+I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ Manage by🤞<a href=https://t.me/xaekks>𝐊𝐢𝐬𝐬𝐮 💞</a> </b>"""
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
     ABOUT_TXT = """<b>✯ Mʏ ɴᴀᴍᴇ: {}
@@ -13,9 +13,9 @@ I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ
 ✯ Mʏ Vᴇʀꜱɪᴏɴ: Devil-ʙᴏᴛ ᴠ2.0.0</b>"""
    
     SOURCE_TXT = """<b>Source:</b>
-🌱 I dont want to show but you can request◉› :<a href=https://t.me/kissu123456>𝐊𝐢𝐬𝐬𝐮 💞</a>
+🌱 I dont want to show but you can request◉› :<a href=https://t.me/xaekks>𝐊𝐢𝐬𝐬𝐮 💞</a>
 
-<b>ᴅᴇᴠ:<a herf=https://t.me/kissu123456>𝐊𝐢𝐬𝐬𝐮 💞</a></b>"""
+<b>ᴅᴇᴠ:<a herf=https://t.me/xaekks>𝐊𝐢𝐬𝐬𝐮 💞</a></b>"""
 
     FILE_TXT = """<b>➤ Hᴇʟᴘ Fᴏʀ Fɪʟᴇ Sᴛᴏʀᴇ</b>
 
