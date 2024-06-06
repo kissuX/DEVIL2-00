@@ -7,7 +7,7 @@ I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
     ABOUT_TXT = """<b>✯ Mʏ ɴᴀᴍᴇ: {}
-✯ Dᴇᴠᴇʟᴏᴩᴇʀ:<a href=https://t.me/kissu123456>𝐊𝐢𝐬𝐬𝐮 💞</a> 
+✯ Dᴇᴠᴇʟᴏᴩᴇʀ:<a href=https://t.me/xaekks>𝐊𝐢𝐬𝐬𝐮 💞</a> 
 ✯ Cᴏᴅᴇᴅ Oɴ: ᴩʏᴛʜᴏɴ/ᴩʏʀᴏɢʀᴀᴍ
 ✯ Mʏ DᴀᴛᴀBᴀꜱᴇ: ᴍᴏɴɢᴏ-ᴅʙ
 ✯ Mʏ Vᴇʀꜱɪᴏɴ: Devil-ʙᴏᴛ ᴠ2.0.0</b>"""
