@@ -59,7 +59,7 @@ class Bot(Client):
             app = web.AppRunner(await web_server())
             await app.setup()
             await web.TCPSite(app, "0.0.0.0", 8080).start()
-            logger.info("Web Response Is Running.....🕸️")
+            logger.info("Web Response Is Running....🕸️")
             
     async def stop(self, *args):
         await super().stop()
