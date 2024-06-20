@@ -16,6 +16,7 @@ API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
+WEB_SUPPORT = bool(environ.get("WEBHOOK", True)) # for web support on/off
 WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
 PICS = (environ.get('PICS' ,'https://telegra.ph/file/29d7cc11dbcb529e1fb1f.jpg https://telegra.ph/file/5882b2e452d83502b7259.jpg https://telegra.ph/file/acf37669e24d19a7cd9d7.jpg https://telegra.ph/file/9208c756a315ad849dd35.jpg https://telegra.ph/file/9e83f650c7305a57f5daf.jpg https://telegra.ph/file/61f1f598c8b009f95f6fb.jpg https://telegra.ph/file/8c0c5e246c1ceb9948499.jpg https://telegra.ph/file/a33644dbaba84d2a52f69.jpg https://telegra.ph/file/b8a5d8eaa21b1e333bfe5.jpg')).split()
 UPTIME = time.time()
