@@ -7,7 +7,7 @@ from pyrogram import types
 
 from database.ia_filterdb import Media
 from database.users_chats_db import db
-from info import API_ID, API_HASH, BOT_TOKEN, LOG_CHANNEL, UPTIME, WEBHOOK, LOG_MSG
+from info import API_ID, API_HASH, BOT_TOKEN, LOG_CHANNEL, UPTIME, WEB_SUPPORT, LOG_MSG
 from utils import temp, __repo__, __license__, __copyright__, __version__
 from typing import Union, Optional, AsyncGenerator
 
@@ -25,7 +25,7 @@ class Bot(Client):
 
     def __init__(self):
         super().__init__(
-            name="Professor-Bots",
+            name="Professor-Bot",
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
@@ -55,16 +55,15 @@ class Bot(Client):
         logger.info(LOG_MSG.format(me.first_name, date, tame, __repo__, __version__, __license__, __copyright__))
         try: await self.send_message(LOG_CHANNEL, text=LOG_MSG.format(me.first_name, date, tame, __repo__, __version__, __license__, __copyright__), disable_web_page_preview=True)   
         except Exception as e: logger.warning(f"Bot Isn't Able To Send Message To LOG_CHANNEL \n{e}")
-        if WEBHOOK is True:
+        if WEB_SUPPORT:
             app = web.AppRunner(await web_server())
             await app.setup()
             await web.TCPSite(app, "0.0.0.0", 8080).start()
-            logger.info("Web Response Is Running....🕸️")
+            logger.info("Web Response Is Running......🕸️")
             
     async def stop(self, *args):
         await super().stop()
-        me = await self.get_me()
-        logger.info(f"{me.first_name} is_...  ♻️Restating....")
+        logger.info(f"Bot Is Restarting ⟳...")
 
     async def iter_messages(self, chat_id: Union[int, str], limit: int, offset: int = 0) -> Optional[AsyncGenerator["types.Message", None]]:                       
         current = offset
@@ -80,8 +79,3 @@ class Bot(Client):
 
         
 Bot().run()
-
-
-
-
-
